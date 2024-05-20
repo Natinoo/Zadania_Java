@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Egzamin">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="744" height="576"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="183e3" binding="panelLabel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-525057"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f5653" class="javax.swing.JLabel" binding="Header">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="20" style="1"/>
+              <foreground color="-1747379"/>
+              <text value="To jest moja pierwsza aplikacja"/>
+            </properties>
+          </component>
+          <hspacer id="10d94">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="1ca9b" class="javax.swing.JLabel" binding="Srodek">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="14" style="2"/>
+              <foreground color="-6429369"/>
+              <text value="Dzisiaj jest poniedziałek"/>
+            </properties>
+          </component>
+          <component id="ba3ed" class="javax.swing.JButton" binding="button3">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Change"/>
+            </properties>
+          </component>
+          <component id="cde76" class="javax.swing.JButton" binding="button1">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Kliknij mnie"/>
+            </properties>
+          </component>
+          <component id="9c54f" class="javax.swing.JButton" binding="button2">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Close"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
